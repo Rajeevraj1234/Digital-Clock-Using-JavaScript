@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:darksalmon;
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+    font-family: monospace  ;
+    font-size: 100px;
+}
+
+.display{
+    margin-top: 6px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: rgb(2, 2, 51);
+    color: wheat;
+    font-size: 70px;
+    user-select: none;
+}
